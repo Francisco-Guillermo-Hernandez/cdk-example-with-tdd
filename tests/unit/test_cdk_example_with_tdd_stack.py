@@ -14,3 +14,5 @@ def template():
 def test_dynamodb_table(template):
     template.resource_count_is('AWS::DynamoDB::Table', 1)
     template.has_resource('AWS::DynamoDB::Table', { 'DeletionPolicy': 'Delete' })
+
+
