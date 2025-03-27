@@ -29,9 +29,17 @@ def test_insertion_lambda(template):
 
     template.has_resource_properties('AWS::IAM::Policy', {
         'PolicyDocument': {
-            'Statement': [assertions.Match.object_like({
-                'Action': assertions.Match.array_with(['dynamodb:BatchWriteItem']),
-                'Effect': 'Allow',
-            })]
+            'Statement': assertions.Match.array_with([
+                {
+                    'Action': 'dynamodb:BatchWriteItem',
+                    'Effect': 'Allow',
+                    'Resource': {
+                        'Fn::GetAtt': [
+                            assertions.Match.any_value(),
+                            'Arn'
+                        ]
+                    },
+                },
+            ])
         },
     })
