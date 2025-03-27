@@ -16,3 +16,22 @@ def test_dynamodb_table(template):
     template.has_resource('AWS::DynamoDB::Table', { 'DeletionPolicy': 'Delete' })
 
 
+def test_insertion_lambda(template):
+    template.has_resource_properties('AWS::Lambda::Function', {
+        'Runtime': 'python3.9',
+        'Handler': 'index.handler',
+        'Environment': {
+            'Variables': assertions.Match.object_like({
+                'TABLE_NAME': assertions.Match.any_value()
+            })
+        }
+    })
+
+    template.has_resource_properties('AWS::IAM::Policy', {
+        'PolicyDocument': {
+            'Statement': [assertions.Match.object_like({
+                'Action': assertions.Match.array_with(['dynamodb:BatchWriteItem']),
+                'Effect': 'Allow',
+            })]
+        },
+    })
