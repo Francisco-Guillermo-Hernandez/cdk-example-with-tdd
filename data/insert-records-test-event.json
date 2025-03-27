@@ -4,7 +4,7 @@
         "PlaceName": "Acadia National Park",
         "Description": "Rocky coastline, granite peaks, and diverse habitats on Maine's Mount Desert Island.",
         "ZipCode": "04609",
-        "DateOfIgnauration": "1919",
+        "DateOfInauguration": "1919",
         "State": "ME",
         "DaysOpenToThePublic": {
         "Mo": { "open": true, "hours": "24 hours" },
@@ -15,14 +15,14 @@
         "Sa": { "open": true, "hours": "24 hours" },
         "Su": { "open": true, "hours": "24 hours" }
         },
-        "Wheather": { "AverageTemperature": "55F", "Conditions": "Variable" },
+        "Whether": { "AverageTemperature": "55F", "Conditions": "Variable" },
         "URL": "https://www.nps.gov/acad/index.htm"
     },
     {
         "PlaceName": "American Samoa National Park",
         "Description": "Tropical rainforests, coral reefs, and Samoan culture on three islands.",
         "ZipCode": "96799",
-        "DateOfIgnauration": "1988",
+        "DateOfInauguration": "1988",
         "State": "AS",
         "DaysOpenToThePublic": {
         "Mo": { "open": true, "hours": "24 hours" },
@@ -33,14 +33,14 @@
         "Sa": { "open": true, "hours": "24 hours" },
         "Su": { "open": true, "hours": "24 hours" }
         },
-        "Wheather": { "AverageTemperature": "82F", "Conditions": "Tropical" },
+        "Whether": { "AverageTemperature": "82F", "Conditions": "Tropical" },
         "URL": "https://www.nps.gov/npsa/index.htm"
     },
     {
         "PlaceName": "Arches National Park",
         "Description": "Iconic sandstone arches, pinnacles, and balanced rocks near Moab, Utah.",
         "ZipCode": "84532",
-        "DateOfIgnauration": "1971",
+        "DateOfInauguration": "1971",
         "State": "UT",
         "DaysOpenToThePublic": {
         "Mo": { "open": true, "hours": "24 hours" },
@@ -51,14 +51,14 @@
         "Sa": { "open": true, "hours": "24 hours" },
         "Su": { "open": true, "hours": "24 hours" }
         },
-        "Wheather": { "AverageTemperature": "65F", "Conditions": "Arid" },
+        "Whether": { "AverageTemperature": "65F", "Conditions": "Arid" },
         "URL": "https://www.nps.gov/arch/index.htm"
     },
     {
         "PlaceName": "Badlands National Park",
         "Description": "Eroded buttes, pinnacles, and spires in South Dakota's mixed-grass prairie.",
         "ZipCode": "57750",
-        "DateOfIgnauration": "1978",
+        "DateOfInauguration": "1978",
         "State": "SD",
         "DaysOpenToThePublic": {
         "Mo": { "open": true, "hours": "24 hours" },
@@ -69,14 +69,14 @@
         "Sa": { "open": true, "hours": "24 hours" },
         "Su": { "open": true, "hours": "24 hours" }
         },
-        "Wheather": { "AverageTemperature": "50F", "Conditions": "Variable" },
+        "Whether": { "AverageTemperature": "50F", "Conditions": "Variable" },
         "URL": "https://www.nps.gov/badl/index.htm"
     },
     {
         "PlaceName": "Big Bend National Park",
         "Description": "Rugged desert, mountains, and canyons along the Rio Grande in Texas.",
         "ZipCode": "79834",
-        "DateOfIgnauration": "1944",
+        "DateOfInauguration": "1944",
         "State": "TX",
         "DaysOpenToThePublic": {
         "Mo": { "open": true, "hours": "24 hours" },
@@ -87,14 +87,14 @@
         "Sa": { "open": true, "hours": "24 hours" },
         "Su": { "open": true, "hours": "24 hours" }
         },
-        "Wheather": { "AverageTemperature": "70F", "Conditions": "Desert" },
+        "Whether": { "AverageTemperature": "70F", "Conditions": "Desert" },
         "URL": "https://www.nps.gov/bibe/index.htm"
     },
     {
         "PlaceName": "Biscayne National Park",
         "Description": "Underwater park with coral reefs, islands, and mangrove forests in Florida.",
         "ZipCode": "33033",
-        "DateOfIgnauration": "1980",
+        "DateOfInauguration": "1980",
         "State": "FL",
         "DaysOpenToThePublic": {
         "Mo": { "open": true, "hours": "24 hours" },
@@ -105,14 +105,14 @@
         "Sa": { "open": true, "hours": "24 hours" },
         "Su": { "open": true, "hours": "24 hours" }
         },
-        "Wheather": { "AverageTemperature": "80F", "Conditions": "Tropical" },
+        "Whether": { "AverageTemperature": "80F", "Conditions": "Tropical" },
         "URL": "https://www.nps.gov/bisc/index.htm"
     },
     {
         "PlaceName": "Black Canyon of the Gunnison National Park",
         "Description": "Steep cliffs, rugged gorges, and the Gunnison River in Colorado.",
         "ZipCode": "81430",
-        "DateOfIgnauration": "1999",
+        "DateOfInauguration": "1999",
         "State": "CO",
         "DaysOpenToThePublic": {
         "Mo": { "open": true, "hours": "24 hours" },
@@ -123,7 +123,7 @@
         "Sa": { "open": true, "hours": "24 hours" },
         "Su": { "open": true, "hours": "24 hours" }
         },
-        "Wheather": { "AverageTemperature": "50F", "Conditions": "Variable" },
+        "Whether": { "AverageTemperature": "50F", "Conditions": "Variable" },
         "URL": "https://www.nps.gov/blca/index.htm"
     }
   ]
