@@ -16,7 +16,7 @@ class CdkExampleWithTddStack(Stack):
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
 
-        table_name = 'Wheater'
+        table_name = 'Whether'
         table = DynamoDB.Table(
             self, 
             table_name, 
